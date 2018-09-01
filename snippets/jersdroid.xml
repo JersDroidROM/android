@@ -17,5 +17,6 @@
   <project path="system/core" name="JersDroidROM/android_system_core" remote="jersdroid" />
   <project path="vendor/cm" name="JersDroidROM/android_vendor_jersdroid" remote="jersdroid" />
   <project path="vendor/cmsdk" name="JersDroidROM/cm_platform_sdk" remote="jersdroid" />
+   <!-- JersDroid Additions -->
 
 </manifest>
