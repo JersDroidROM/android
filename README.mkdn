@@ -1,4 +1,4 @@
-[ParaSHIT](https://github.com/Para-SHIT)
+[JersDroid](https://github.com/JersDroidROM)
 =============
 
 NOTE: This project is in the development process, Don't sync it. Do With Your Own Risk!!!!
@@ -8,9 +8,9 @@ Getting Started
 
 Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
 
-To initialize your local repository using the ParaSHIT trees, use a command like this:
+To initialize your local repository using the JersDroid trees, use a command like this:
 
-	repo init -u https://github.com/Para-SHIT/android.git -b shit-n
+	repo init -u https://github.com/JersDroidROM/android.git -b nougat
 
 Then to sync up:
 
@@ -21,4 +21,4 @@ After the sync is finished, use this command to start building:
 	. build/envsetup.sh
 	brunch [device]
 
-Then you are now a ``SHIT``
+Then you are now a JersDroid
