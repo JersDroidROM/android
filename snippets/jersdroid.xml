@@ -1,0 +1,21 @@
+?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- JersDroid Additions -->
+  <project path="android" name="JersDroidROM/android" remote="jersdroid" />
+  <project path="build" name="JersDroidROM/android_build" groups="pdk" remote="jersdroid">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="external/DUtils" name="JersDroidROM/android_external_DUtils" remote="jersdroid" />
+  <project path="frameworks/base" name="JersDroidROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="jersdroid" />
+  <project path="packages/apps/CMParts" name="JersDroidROM/android_packages_apps_CMParts" remote="jersdroid" />
+  <project path="packages/apps/DUI" name="JersDroidROM/android_packages_apps_DUI" remote="jersdroid" />
+  <project path="packages/apps/OmniStyle" name="JersDroidROM/android_packages_apps_OmniStyle" remote="jersdroid" />
+  <project path="packages/apps/OmniSwitch" name="JersDroidROM/android_packages_apps_OmniSwitch" remote="jersdroid" />
+  <project path="packages/apps/Settings" name="JersDroidROM/android_packages_apps_Settings" groups="pdk-fs" remote="jersdroid" />
+  <project path="packages/apps/SlimRecents" name="JersDroidROM/android_packages_apps_SlimRecents" remote="jersdroid" />
+  <project path="system/core" name="JersDroidROM/android_system_core" remote="jersdroid" />
+  <project path="vendor/cm" name="JersDroidROM/android_vendor_jersdroid" remote="jersdroid" />
+  <project path="vendor/cmsdk" name="JersDroidROM/cm_platform_sdk" remote="jersdroid" />
+
+</manifest>
